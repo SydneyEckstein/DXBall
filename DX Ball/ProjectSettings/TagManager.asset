@@ -9,6 +9,8 @@ TagManager:
   - brick
   - sideWall
   - topWall
+  - bottomWall
+  - logic
   layers:
   - Default
   - TransparentFX
