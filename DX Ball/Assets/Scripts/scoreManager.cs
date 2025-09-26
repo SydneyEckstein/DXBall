@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class scoreManager : MonoBehaviour
 {
@@ -12,10 +13,12 @@ public class scoreManager : MonoBehaviour
     { 
         if (input == 1){
             score=score+input;
-            scoreText.text = score.ToString()+"Points";
-            if (score == 1){
+            scoreText.text = score.ToString()+" Points";
+            if (score == 4){
                 winText.text = "You Win!";
                 ball.SetActive(false);
+                SceneManager.LoadScene("Level2");
+
             }
         }
 
