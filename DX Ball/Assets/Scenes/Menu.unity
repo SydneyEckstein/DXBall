@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 467374179}
   - component: {fileID: 467374178}
   - component: {fileID: 467374177}
+  - component: {fileID: 467374180}
   m_Layer: 5
   m_Name: start
   m_TagString: Untagged
@@ -202,13 +203,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: fa6788de93e7a47258e3ad73859787a8, type: 3}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 467374180}
+        m_TargetAssemblyTypeName: menu, Assembly-CSharp
+        m_MethodName: OnButtonClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -252,6 +253,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 467374175}
   m_CullTransparentMesh: 1
+--- !u!114 &467374180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 467374175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa6788de93e7a47258e3ad73859787a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::menu
 --- !u!1 &796945973
 GameObject:
   m_ObjectHideFlags: 0
