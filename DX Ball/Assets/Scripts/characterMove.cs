@@ -17,7 +17,7 @@ initial = pad.transform.localPosition;
 void Update()
     {
     if ((Input.GetKey(KeyCode.RightArrow))){
-        animator.setBool("isRunning", true);
+        animator.SetBool("isRunning", true);
         if (initial.x<=9.75)
         initial.x=initial.x+displacement;
     }
@@ -26,7 +26,7 @@ void Update()
         initial.x=initial.x-displacement;
     }
     else{
-        animator.setBool("isRunning", false);
+        animator.SetBool("isRunning", false);
     }
     pad.MovePosition(initial);
     }

@@ -274,6 +274,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::move
   displacement: 0.05
+  animator: {fileID: 156374109}
 --- !u!1 &756471724
 GameObject:
   m_ObjectHideFlags: 0
