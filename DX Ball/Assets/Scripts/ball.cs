@@ -9,6 +9,7 @@ public float speed;
 public Vector2 direction;
 public int brickCount = 0;
 public scoreManager score;
+public AudioSource sound;
 
 void Start()
 {
@@ -37,6 +38,7 @@ void OnTriggerEnter2D(Collider2D collison){
     }
     else if (collison.gameObject.CompareTag("brick")){
         direction.y = -direction.y;
+        sound.Play();
         Destroy(collison.gameObject);
         brickCount = brickCount + 1;
         score.addScore(1); // 1 means score happened
