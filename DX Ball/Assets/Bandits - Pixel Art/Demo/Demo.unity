@@ -526,6 +526,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1463392086428580, guid: 3248535f6a2562c489a1223a75951ef2, type: 3}
   m_PrefabInstance: {fileID: 612252429}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &801308134 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 95734438044755836, guid: 3248535f6a2562c489a1223a75951ef2, type: 3}
+  m_PrefabInstance: {fileID: 612252429}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &801308137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -538,6 +543,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f05466252d4b4dd7abb19f4b25eb560, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  animator: {fileID: 801308134}
   maxHealth: 100
 --- !u!1 &947273194
 GameObject:
@@ -1304,7 +1310,6 @@ MonoBehaviour:
   attackPoint: {fileID: 284353680}
   attackRange: 0.75
   enemyLayers:
-    serializedVersion: 2
     m_Bits: 64
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
